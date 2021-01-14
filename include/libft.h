@@ -6,7 +6,7 @@
 /*   By: bditte <bditte@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/04 14:30:09 by bditte            #+#    #+#             */
-/*   Updated: 2020/11/21 17:51:15 by bditte           ###   ########.fr       */
+/*   Updated: 2021/01/15 00:01:29 by bditte           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,6 +33,7 @@ char			**ft_split(const char *s, int n, ...);
 void			ft_putnbr_fd(int n, int fd);
 int				ft_atoi(const char *str);
 char			*ft_strrchr(const char *s, int c);
+int				ft_strcmp(const char *s1, const char *s2);
 int				ft_strncmp(const char *s1, const char *s2, size_t n);
 size_t			ft_strlcpy(char *dst, const char *src, size_t dstsize);
 char			*ft_strnstr
