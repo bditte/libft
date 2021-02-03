@@ -6,7 +6,7 @@
 /*   By: bditte <bditte@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/25 12:19:14 by bditte            #+#    #+#             */
-/*   Updated: 2020/01/17 10:35:09 by bditte           ###   ########.fr       */
+/*   Updated: 2021/02/03 10:55:13 by bditte           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,7 @@ size_t	ft_strlen(char *src)
 	return (len);
 }
 
-char	*ft_strjoin(char **s1, char *s2)
+char	*ft_strjoin_gnl(char **s1, char *s2)
 {
 	char	*dst;
 	int		s1len;
@@ -87,7 +87,7 @@ char	*ft_strjoin(char **s1, char *s2)
 	return (dst - s1len - s2len);
 }
 
-int		ft_strchr(char *str, char c)
+int		ft_strchr_gnl(char *str, char c)
 {
 	int i;
 

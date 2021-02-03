@@ -6,7 +6,7 @@
 /*   By: bditte <bditte@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/25 12:20:35 by bditte            #+#    #+#             */
-/*   Updated: 2020/01/17 10:53:15 by bditte           ###   ########.fr       */
+/*   Updated: 2021/02/03 10:55:38 by bditte           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,6 @@
 int		get_next_line(int fd, char **line);
 int		ft_strcut(char **str);
 char	*ft_newline(char *str);
-char	*ft_strjoin(char **s1, char *s2);
-int		ft_strchr(char *str, char c);
+char	*ft_strjoin_gnl(char **s1, char *s2);
+int		ft_strchr_gnl(char *str, char c);
 #endif
