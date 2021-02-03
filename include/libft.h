@@ -6,7 +6,7 @@
 /*   By: bditte <bditte@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/04 14:30:09 by bditte            #+#    #+#             */
-/*   Updated: 2021/01/15 00:01:29 by bditte           ###   ########.fr       */
+/*   Updated: 2021/02/03 10:52:10 by bditte           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <string.h>
 # include <unistd.h>
 # include <stdarg.h>
+# include "get_next_line.h"
 
 typedef struct	s_list
 {
