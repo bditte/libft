@@ -6,7 +6,7 @@
 /*   By: bditte <bditte@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/25 12:19:14 by bditte            #+#    #+#             */
-/*   Updated: 2021/02/03 10:55:13 by bditte           ###   ########.fr       */
+/*   Updated: 2021/02/04 14:25:52 by bditte           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,7 @@ char	*ft_newline(char *str)
 	return (tmp);
 }
 
-size_t	ft_strlen(char *src)
+size_t	ft_strlen_gnl(char *src)
 {
 	size_t len;
 
@@ -70,7 +70,7 @@ char	*ft_strjoin_gnl(char **s1, char *s2)
 
 	s1len = 0;
 	s2len = 0;
-	if (!(dst = malloc(sizeof(char) * (ft_strlen(*s1) + ft_strlen(s2) + 1))))
+	if (!(dst = malloc(sizeof(char) * (ft_strlen_gnl(*s1) + ft_strlen_gnl(s2) + 1))))
 		return (NULL);
 	while ((*s1)[s1len])
 	{
