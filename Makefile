@@ -6,7 +6,7 @@
 #    By: bditte <bditte@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/08/21 14:38:26 by bditte            #+#    #+#              #
-#    Updated: 2021/01/15 00:08:27 by bditte           ###   ########.fr        #
+#    Updated: 2021/02/08 16:23:50 by bditte           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,6 +24,7 @@ SRC = 		ft_atoi.c \
 		ft_isascii.c \
 		ft_isdigit.c \
 		ft_isprint.c \
+		ft_isspace.c \
 		ft_putstr.c \
 		ft_itoa.c \
 		ft_memccpy.c \
