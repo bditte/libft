@@ -6,7 +6,7 @@
 /*   By: bditte <bditte@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/25 12:19:14 by bditte            #+#    #+#             */
-/*   Updated: 2021/02/04 14:25:52 by bditte           ###   ########.fr       */
+/*   Updated: 2021/02/09 15:30:59 by bditte           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ int		ft_strcut(char **str)
 		res[j] = (*str)[i + j + 1];
 	free(*str);
 	*str = res;
+	free(res);
 	return (1);
 }
 
